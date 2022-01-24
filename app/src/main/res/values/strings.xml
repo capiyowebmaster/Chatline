@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Chatline</string>
+    <string name="username">Username</string>
+    <string name="e_name">E-name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="click_me">click me</string>
+    <string name="login_now">Login now</string>
+    <string name="new_user">New User?</string>
+    <string name="login">Login</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+</resources>

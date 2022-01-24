@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "607892712973",
+    "firebase_url": "https://chatline-d8a8d-default-rtdb.firebaseio.com",
+    "project_id": "chatline-d8a8d",
+    "storage_bucket": "chatline-d8a8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607892712973:android:ccac702b7d526c0d0a2f44",
+        "android_client_info": {
+          "package_name": "com.example.chatline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607892712973-ou6ms3frg9u0fl4utdknc4bog46p2ps0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfyJXE2kYZSamJgVG3fqMymVEWvIOzKCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607892712973-ou6ms3frg9u0fl4utdknc4bog46p2ps0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

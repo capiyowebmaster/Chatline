@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/dorgerblue"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/crimson"
+            android:id="@+id/accountImageview"
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/app_icon"
+            />
+        <TextView
+            android:fontFamily="sans-serif-black"
+            android:layout_width="wrap_content"
+            android:id="@+id/postnames"
+            android:layout_marginLeft="100dp"
+            android:text="@string/app_name"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:fontFamily="sans-serif-black"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="@string/app_name"
+            android:textSize="15sp"
+            android:id="@+id/postenames"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:text="capiyo"
+            android:textSize="15sp"
+            android:textColor="@color/crimson"
+            android:fontFamily="sans-serif"
+            android:id="@+id/picMessage"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/postImageview"
+            android:layout_marginBottom="10dp"
+            android:layout_height="450dp"/>
+</LinearLayout>
+        <TextView
+            android:layout_marginTop="360dp"
+            android:layout_width="60dp"
+            android:id="@+id/cooment"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_baseline_add_comment_24"
+            android:layout_height="60dp"/>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="60dp"
+            android:id="@+id/openMessaging"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/messaging"
+            android:layout_height="60dp"/>
+        <com.like.LikeButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon_size="40dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="350dp"
+            android:id="@+id/likPost"
+            app:circle_end_color="@color/lime"
+            app:circle_start_color="@color/gray"
+            app:icon_type="heart"/>
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textSize="20sp"
+        android:id="@+id/counter"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/lime"
+        android:layout_height="20dp"/>
+
+
+
+
+</LinearLayout>
